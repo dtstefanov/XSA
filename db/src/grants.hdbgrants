@@ -1,0 +1,14 @@
+{
+	"V54": {
+		"object_owner": {
+			"roles": [
+				"TCCC_XSA_HDI_IT_G"
+			]
+		},
+		"application_user": {
+			"roles": [
+				"TCCC_XSA_HDI_IT_G"
+			]
+		}
+	}
+}

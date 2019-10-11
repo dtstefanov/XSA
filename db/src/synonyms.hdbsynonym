@@ -1,0 +1,8 @@
+{
+  "prj.db::syn_T001": {
+    "target": {
+      "object": "T001",
+      "schema": "SAPX08_R"
+    }
+  }
+}

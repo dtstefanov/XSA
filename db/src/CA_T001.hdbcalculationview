@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="prj.db::CA_T001" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="CA_T001"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="prj.db::syn_T001">
+    <resourceUri>prj.db::syn_T001</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="prj.db::syn_T001">
+  <attributes>
+    <attribute id="LOG_SYS" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOG_SYS"/>
+      <keyMapping columnObjectName="syn_T001" columnName="LOG_SYS"/>
+    </attribute>
+    <attribute id="PHY_SYS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PHY_SYS"/>
+      <keyMapping columnObjectName="syn_T001" columnName="PHY_SYS"/>
+    </attribute>
+    <attribute id="MANDT" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Client"/>
+      <keyMapping columnObjectName="syn_T001" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BUKRS" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Company Code"/>
+      <keyMapping columnObjectName="syn_T001" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="BUTXT" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Name of Company Code or Company"/>
+      <keyMapping columnObjectName="syn_T001" columnName="BUTXT"/>
+    </attribute>
+    <attribute id="ORT01" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="City"/>
+      <keyMapping columnObjectName="syn_T001" columnName="ORT01"/>
+    </attribute>
+    <attribute id="LAND1" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Country Key"/>
+      <keyMapping columnObjectName="syn_T001" columnName="LAND1"/>
+    </attribute>
+    <attribute id="WAERS" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Currency Key"/>
+      <keyMapping columnObjectName="syn_T001" columnName="WAERS"/>
+    </attribute>
+    <attribute id="SPRAS" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Language Key"/>
+      <keyMapping columnObjectName="syn_T001" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="KTOPL" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Chart of Accounts"/>
+      <keyMapping columnObjectName="syn_T001" columnName="KTOPL"/>
+    </attribute>
+    <attribute id="WAABW" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Maximum exchange rate deviation in percent"/>
+      <keyMapping columnObjectName="syn_T001" columnName="WAABW"/>
+    </attribute>
+    <attribute id="PERIV" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Fiscal Year Variant"/>
+      <keyMapping columnObjectName="syn_T001" columnName="PERIV"/>
+    </attribute>
+    <attribute id="KOKFI" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Allocation Indicator"/>
+      <keyMapping columnObjectName="syn_T001" columnName="KOKFI"/>
+    </attribute>
+    <attribute id="RCOMP" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Company"/>
+      <keyMapping columnObjectName="syn_T001" columnName="RCOMP"/>
+    </attribute>
+    <attribute id="ADRNR" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Address"/>
+      <keyMapping columnObjectName="syn_T001" columnName="ADRNR"/>
+    </attribute>
+    <attribute id="STCEG" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VAT Registration Number"/>
+      <keyMapping columnObjectName="syn_T001" columnName="STCEG"/>
+    </attribute>
+    <attribute id="FIKRS" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Financial Management Area"/>
+      <keyMapping columnObjectName="syn_T001" columnName="FIKRS"/>
+    </attribute>
+    <attribute id="XFMCO" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Indicator: Project Cash Management active?"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XFMCO"/>
+    </attribute>
+    <attribute id="XFMCB" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Indicator: Cash budget management active"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XFMCB"/>
+    </attribute>
+    <attribute id="XFMCA" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Activate Update in Funds Management"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XFMCA"/>
+    </attribute>
+    <attribute id="TXJCD" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Jurisdiction for tax calculation - tax jurisdiction code"/>
+      <keyMapping columnObjectName="syn_T001" columnName="TXJCD"/>
+    </attribute>
+    <attribute id="FMHRDATE" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Funds center can be assigned to an account in HR from"/>
+      <keyMapping columnObjectName="syn_T001" columnName="FMHRDATE"/>
+    </attribute>
+    <attribute id="BUVAR" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Company Code Variant (Screen)"/>
+      <keyMapping columnObjectName="syn_T001" columnName="BUVAR"/>
+    </attribute>
+    <attribute id="FDBUK" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Cash Management and Forecast Company Code"/>
+      <keyMapping columnObjectName="syn_T001" columnName="FDBUK"/>
+    </attribute>
+    <attribute id="XFDIS" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Indicator: Cash Management activated?"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XFDIS"/>
+    </attribute>
+    <attribute id="XVALV" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Indicator: Propose current date as value date ?"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XVALV"/>
+    </attribute>
+    <attribute id="XSKFN" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Indicator: Discount base amount is the net value"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XSKFN"/>
+    </attribute>
+    <attribute id="KKBER" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Credit Control Area"/>
+      <keyMapping columnObjectName="syn_T001" columnName="KKBER"/>
+    </attribute>
+    <attribute id="XMWSN" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Indicator: Base amount for tax is net of discount ?"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XMWSN"/>
+    </attribute>
+    <attribute id="MREGL" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Rules for Copying from the Sample Account for G/L Accounts"/>
+      <keyMapping columnObjectName="syn_T001" columnName="MREGL"/>
+    </attribute>
+    <attribute id="XGSBE" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Indicator: Business area financial statements required?"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XGSBE"/>
+    </attribute>
+    <attribute id="XGJRV" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Indicator: Propose fiscal year ?"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XGJRV"/>
+    </attribute>
+    <attribute id="XKDFT" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Indicator: Post translations for exchange rate differences ?"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XKDFT"/>
+    </attribute>
+    <attribute id="XPROD" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Indicator: Productive company code?"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XPROD"/>
+    </attribute>
+    <attribute id="XEINK" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Indicator: Purchase Account Processing is Active"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XEINK"/>
+    </attribute>
+    <attribute id="XJVAA" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Indicator: JVA Active"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XJVAA"/>
+    </attribute>
+    <attribute id="XVVWA" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Indicator: Financial Assets Management active"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XVVWA"/>
+    </attribute>
+    <attribute id="XSLTA" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Indicator: No ex.rate difference when clearing in local crcy"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XSLTA"/>
+    </attribute>
+    <attribute id="XFDMM" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Indicator: Updating MM in Cash Mgmt/Forecast activated?"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XFDMM"/>
+    </attribute>
+    <attribute id="XFDSD" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Indicator: Updating SD in Cash Mgmt/Forecast activated?"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XFDSD"/>
+    </attribute>
+    <attribute id="XEXTB" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Indicator: Company code is in another system"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XEXTB"/>
+    </attribute>
+    <attribute id="EBUKR" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Original Key of the Company Code"/>
+      <keyMapping columnObjectName="syn_T001" columnName="EBUKR"/>
+    </attribute>
+    <attribute id="KTOP2" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Chart of Accounts According to Country Legislation"/>
+      <keyMapping columnObjectName="syn_T001" columnName="KTOP2"/>
+    </attribute>
+    <attribute id="UMKRS" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Sales/Purchases Tax Group"/>
+      <keyMapping columnObjectName="syn_T001" columnName="UMKRS"/>
+    </attribute>
+    <attribute id="BUKRS_GLOB" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Name of global company code"/>
+      <keyMapping columnObjectName="syn_T001" columnName="BUKRS_GLOB"/>
+    </attribute>
+    <attribute id="FSTVA" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Field Status Variant"/>
+      <keyMapping columnObjectName="syn_T001" columnName="FSTVA"/>
+    </attribute>
+    <attribute id="OPVAR" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Posting Period Variant"/>
+      <keyMapping columnObjectName="syn_T001" columnName="OPVAR"/>
+    </attribute>
+    <attribute id="XCOVR" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Indicator: hedge request active"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XCOVR"/>
+    </attribute>
+    <attribute id="TXKRS" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Foreign Currency Translation for Tax Items"/>
+      <keyMapping columnObjectName="syn_T001" columnName="TXKRS"/>
+    </attribute>
+    <attribute id="WFVAR" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Workflow variant"/>
+      <keyMapping columnObjectName="syn_T001" columnName="WFVAR"/>
+    </attribute>
+    <attribute id="XBBBF" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="G/L account authorization check in inventory management"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XBBBF"/>
+    </attribute>
+    <attribute id="XBBBE" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="G/L account authorization check in PO/scheduling agreement"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XBBBE"/>
+    </attribute>
+    <attribute id="XBBBA" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="G/L account authorization check in purchase requisitions"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XBBBA"/>
+    </attribute>
+    <attribute id="XBBKO" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="G/L account authorization check in contracts"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XBBKO"/>
+    </attribute>
+    <attribute id="XSTDT" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Indicator: Document date as the basis for tax determination"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XSTDT"/>
+    </attribute>
+    <attribute id="MWSKV" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Input Tax Code for Non-Taxable Transactions"/>
+      <keyMapping columnObjectName="syn_T001" columnName="MWSKV"/>
+    </attribute>
+    <attribute id="MWSKA" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Output Tax Code for Non-Taxable Transactions"/>
+      <keyMapping columnObjectName="syn_T001" columnName="MWSKA"/>
+    </attribute>
+    <attribute id="IMPDA" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Foreign Trade: Import Data Control in MM Purchase Orders"/>
+      <keyMapping columnObjectName="syn_T001" columnName="IMPDA"/>
+    </attribute>
+    <attribute id="XNEGP" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Indicator: Negative Postings Permitted"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XNEGP"/>
+    </attribute>
+    <attribute id="XKKBI" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Indicator: Can credit control area be overwritten?"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XKKBI"/>
+    </attribute>
+    <attribute id="WT_NEWWT" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Indicator: Extended withholding tax active"/>
+      <keyMapping columnObjectName="syn_T001" columnName="WT_NEWWT"/>
+    </attribute>
+    <attribute id="PP_PDATE" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Procedure for Setting the Posting Date"/>
+      <keyMapping columnObjectName="syn_T001" columnName="PP_PDATE"/>
+    </attribute>
+    <attribute id="INFMT" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Inflation Method"/>
+      <keyMapping columnObjectName="syn_T001" columnName="INFMT"/>
+    </attribute>
+    <attribute id="FSTVARE" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Funds reservation field status var."/>
+      <keyMapping columnObjectName="syn_T001" columnName="FSTVARE"/>
+    </attribute>
+    <attribute id="KOPIM" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Foreign trade: Import data copying control for GR"/>
+      <keyMapping columnObjectName="syn_T001" columnName="KOPIM"/>
+    </attribute>
+    <attribute id="DKWEG" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Foreign Trade: Screen ctrl of imp.data f. MM-goods rececipt"/>
+      <keyMapping columnObjectName="syn_T001" columnName="DKWEG"/>
+    </attribute>
+    <attribute id="OFFSACCT" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Method for offsetting account determination"/>
+      <keyMapping columnObjectName="syn_T001" columnName="OFFSACCT"/>
+    </attribute>
+    <attribute id="BAPOVAR" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Additional settings variant for bus.area financial statemnts"/>
+      <keyMapping columnObjectName="syn_T001" columnName="BAPOVAR"/>
+    </attribute>
+    <attribute id="XCOS" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Cost of sales accounting status"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XCOS"/>
+    </attribute>
+    <attribute id="XCESSION" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Accounts Receivable Pledging Active"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XCESSION"/>
+    </attribute>
+    <attribute id="XSPLT" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Enable Amount Split"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XSPLT"/>
+    </attribute>
+    <attribute id="SURCCM" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Surcharge Calculation Method"/>
+      <keyMapping columnObjectName="syn_T001" columnName="SURCCM"/>
+    </attribute>
+    <attribute id="DTPROV" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Document Type for Provisions for Taxes on Services Received"/>
+      <keyMapping columnObjectName="syn_T001" columnName="DTPROV"/>
+    </attribute>
+    <attribute id="DTAMTC" order="74" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Document Type for Journal Voucher (Amount Correction)"/>
+      <keyMapping columnObjectName="syn_T001" columnName="DTAMTC"/>
+    </attribute>
+    <attribute id="DTTAXC" order="75" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Document Type for Journal Voucher (Tax Code Correction)"/>
+      <keyMapping columnObjectName="syn_T001" columnName="DTTAXC"/>
+    </attribute>
+    <attribute id="DTTDSP" order="76" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Document Type for Remittance Challans"/>
+      <keyMapping columnObjectName="syn_T001" columnName="DTTDSP"/>
+    </attribute>
+    <attribute id="DTAXR" order="77" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Deferred Tax Rule"/>
+      <keyMapping columnObjectName="syn_T001" columnName="DTAXR"/>
+    </attribute>
+    <attribute id="XVATDATE" order="78" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Tax Reporting Date Active in Documents"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XVATDATE"/>
+    </attribute>
+    <attribute id="PST_PER_VAR" order="79" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Manage Variant of Posting Period for Company Code/Ledger"/>
+      <keyMapping columnObjectName="syn_T001" columnName="PST_PER_VAR"/>
+    </attribute>
+    <attribute id="XBBSC" order="80" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="G/L account authorization check in shopping cart"/>
+      <keyMapping columnObjectName="syn_T001" columnName="XBBSC"/>
+    </attribute>
+    <attribute id="FM_DERIVE_ACC" order="81" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Activate Account Assignment Derivation in Funds Management"/>
+      <keyMapping columnObjectName="syn_T001" columnName="FM_DERIVE_ACC"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>
